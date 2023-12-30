@@ -1,0 +1,21 @@
+				<footer class="site-footer text-light">
+					<div class="container">
+						<div class="site-footer-inner has-top-divider">
+							<div class="brand footer-brand">
+								<a href="#">
+									<svg width="48" height="32" viewBox="0 0 48 32" xmlns="http://www.w3.org/2000/svg">
+										<title>{{ .Site.Title }}</title>
+										<img src="images/pnologo.png" alt="Hello" width = "150px">
+										<g fill="none" fill-rule="evenodd">
+											<rect fill="url(#logo-footer-a)" width="32" height="32" rx="16"/>
+											<rect fill="url(#logo-footer-b)" x="16" width="32" height="32" rx="16"/>
+										</g>
+									</svg>
+								</a>
+							</div>
+							{{ partial "nav.html" . }}
+							{{ partial "social.html" . }}
+							<div class="footer-copyright">&copy; {{ now.Format "2006"}} {{ .Site.Params.authorName | markdownify }}, all rights reserved</div>
+						</div>
+					</div>
+				</footer>
