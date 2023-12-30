@@ -1,104 +1,91 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "Agnes Site"
-theme = "agnes-hugo-theme-main"
+baseURL = "https://mari1li.github.io/pno/"
+languageCode = 'en-us'
+title = 'P&O Pharma'
+theme = 'agnes'
 
 [params]
-	dateFormat = "Jan 2, 2023" 
-	authorName = "Ported to Hugo by Debashish"
-	google_analytics_id = "GA-"
-	
+    dateFormat = "Jan 2, 2023"
+    authorName = "P&O Pharma"
+    google_analytics_id = "GA-"
+    
 [menu]
-	[[menu.main]]
-		Name = "Contact"
-		URL = "#"
-		weight = 1
-	
-	[[menu.main]]
-		Name = "About us"
-		URL = "#"
-		weight = 2
-	
-	[[menu.main]]
-		Name = "FAQ's"
-		URL = "#"
-		weight = 3
-	
-	[[menu.main]]
-		Name = "Support"
-		URL = "#"
-		weight = 4
-		
+    [[menu.main]]
+   	 Name = "Contact"
+   	 URL = "#"
+   	 weight = 1
+    
+    [[menu.main]]
+   	 Name = "About us"
+   	 URL = "#"
+   	 weight = 2
+    
+    [[menu.main]]
+   	 Name = "FAQ's"
+   	 URL = "#"
+   	 weight = 3
+    
+    [[menu.main]]
+   	 Name = "Support"
+   	 URL = "#"
+   	 weight = 4
+   	 
 [params.social]
-	TwitterURL = "https://twitter.com/podbharati"
-	GoogleURL = "http://google.com"
-	FacebookURL = "https://facebook.com/podbharati"
-		
+    TwitterURL = "https://twitter.com/"
+    GoogleURL = "http://google.com"
+    FacebookURL = "https://facebook.com/"
+   	 
 [params.content]
-	LeadTitle = "Landing template for Startups"
-	LeadDescription = "Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
-	ButtonCaption = "Pricing & Plans"
-	ButtonURL = "http://google.com"
+    LeadTitle = "Chào mừng đến P&O Pharma"
+    LeadDescription = "Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+    ButtonCaption = "Liên hệ công ty"
+    ButtonURL = "https://zalo.me/0939115395"
 
 ################### Feature Columns (do not exceed 4) ####################
 
 [[params.feature]]
-	FeatureTitle = "Feature 1"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
-	FeatureImage = "images/feature-1.png"
-	
+    FeatureTitle = "Azipowder"
+    FeatureDescription = "Bột pha hỗn dịch uống Azipowder 200mg/5ml trị Nhiễm khuẩn đường hô hấp dưới"
+    FeatureImage = "images/azipowder.png"
+    
 [[params.feature]]
-	FeatureTitle = "Feature 2"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
-	FeatureImage = "images/feature-2.png"
+    FeatureTitle = "Desbebe"
+    FeatureDescription = "Viêm mũi dị ứng theo mùa, viêm mũi dị ứng lâu năm, chứng mề đay tự phát mãn tính."
+    FeatureImage = "images/desbebe.jpg"
 
 [[params.feature]]
-	FeatureTitle = "Feature 3"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
-	FeatureImage = "images/feature-3.png"
-	
+    FeatureTitle = "Racesec 10"
+    FeatureDescription = " Điều trị triệu chứng tiêu chảy cấp "
+    FeatureImage = "images/racesec10.jpg"
+    
 [[params.feature]]
-	FeatureTitle = "Feature 4"
-	FeatureDescription = "A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements."
-	FeatureImage = "images/feature-4.png"
-	
-################### Pricing Columns (do not exceed 3) ####################
+    FeatureTitle = "Seamama"
+    FeatureDescription = "Hỗ trợ giảm các triệu chứng khí huyết ứ trệ cho phụ nữ sau sinh"
+    FeatureImage = "images/pnologo.png"
 
-[[params.pricing]]
-	PricingTitle = "Starter"
-	PricingRate = "27"	
-	ButtonCaption = "Get Early Access"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"	
+[[params.feature]]
+    FeatureTitle = "Maviced"
+    FeatureDescription = "Bổ sung Vitamin và khoáng chất cho phụ nữ mang thai và cho con bú"
+    FeatureImage = "images/maviced.png"
+[[params.feature]]
+    FeatureTitle = "Zepilen"
+    FeatureDescription = " Kháng sinh dự phòng trước và sau phẫu thuật."
+    FeatureImage = "images/zepilen.png"
+    
+[[params.feature]]
+    FeatureTitle = "Lematin"
+    FeatureDescription = "Bổ sung Vitamin và khoáng chất cho phụ nữ mang thai và cho con bú"
+    FeatureImage = "images/lematin.png"
 
-[[params.pricing]]
-	PricingTitle = "Professional"
-	PricingRate = "97"
-	ButtonCaption = "Get Earlier Access"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"		
-	
-[[params.pricing]]
-	PricingTitle = "Business"
-	PricingRate = "147"
-	ButtonCaption = "Get Earliest Access"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"
-	[[params.pricing.Features]]
-		Description = "Lorem ipsum is common text"	
+[[params.feature]]
+    FeatureTitle = "Budamed 400"
+    FeatureDescription = "Điều trị triệu chứng cấp tính của đau bụng kinh nguyên phát"
+    FeatureImage = "images/pnologo.png"
+
+[[params.feature]]
+    FeatureTitle = "Racesec 30"
+    FeatureDescription = " Điều trị triệu chứng tiêu chảy cấp"
+    FeatureImage = "images/racesec30.png"
+[[params.feature]]
+    FeatureTitle = "Fessomas vitamin D3+ K2 spray"
+    FeatureDescription = " Điều trị triệu chứng tiêu chảy cấp"
+    FeatureImage = "images/pnologo.png"
