@@ -1,7 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Agnes Site"
-theme = "agnes-hugo-theme-main"
+theme = "agnes-hugo-theme"
 
 [params]
 	dateFormat = "Jan 2, 2023" 
