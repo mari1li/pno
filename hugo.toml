@@ -1,4 +1,4 @@
-baseURL = "https://mari1li.github.io/pno/"
+baseURL = "http://example.org/"
 languageCode = 'en-us'
 title = 'P&O Pharma'
 theme = 'agnes'
